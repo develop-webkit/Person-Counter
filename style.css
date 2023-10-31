@@ -1,0 +1,85 @@
+body{
+    font-size:10px;
+    margin:0;
+    background-color:#2f2f2f;
+    background-image: url(train.jpg);
+    background-size:cover;
+    font-family: sans-serif;
+}
+
+.attribution-a{
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    color:#fff;
+}
+
+p{
+    margin:1rem 0;
+}
+
+.main-counter{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:500px;
+    padding:30px;
+    margin:auto;
+    background-color:#000;
+    color:#fff;
+    border-radius: 6px;
+    border:1px solid #fff;
+    margin-top:60px;
+}
+
+#counter-number{
+    background-color:#fff;
+    padding:5px 20px;
+    color:#000;
+    font-size:2.5rem;
+}
+
+.button-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+.para-1{
+    font-size: 2rem;
+    margin-bottom:.3rem;
+}
+
+h1{
+    margin-bottom:.3rem;
+}
+
+.btn{
+    border:0;
+    font-size:1.3rem;   
+    padding:5px 15px;
+    cursor: pointer;
+}
+
+.btn-add{
+    background-color:green;
+}
+
+.btn-minus{
+    background-color:red;
+}
+
+.save-btn{
+    background-color: yellow;
+}
+
+#save-el{
+    display:block;
+    font-size:20px;
+}
+
+.btn-reset{
+    background-color:purple;
+}
